@@ -1,0 +1,325 @@
+*
+{
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	line-height: 27px;
+	margin: 0;
+	color: #636363;
+	background-color: aliceblue;
+}
+img{
+	max-width: 100%;
+}
+
+a{
+	text-decoration: none;
+}
+h2{
+	color: #111111;
+	font-size: 32px;
+	line-height: 38px;
+}
+
+h1{
+	color: #E5D4C4;
+}
+
+
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 5%;
+	position: sticky;
+	top: 0;
+	background-color: #FFFFFF;
+}
+
+nav a{
+	color: #626262;
+	padding: 15px;
+	
+}
+
+nav a:hover{
+	background-color: #2D3D4C;
+	color: #FFFFFF;
+	transition: .4s;
+}
+
+.signup{
+	background-color: #2F8592;
+	color: #FFFFFF;
+	padding: 10px 30px;
+}
+.signup:hover{
+	opacity: .7;
+}
+
+
+.banner{
+	background-image: url("../images/ban 2.jpg");
+	height: 700px;
+	background-size: cover;
+	color: #FFFFFF;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	text-align: center;
+	padding-left: 150px;
+}
+
+.banner h3{
+	
+}
+
+.overlaytext{
+	max-width: 600px;
+}
+.btn1 {
+	background-color: #E5D4C4;
+	color: #000000;
+	padding: 10px 30px;
+	
+}
+
+.btn2 {
+	background-color: #2D3D4C;
+	color: #FFFFFF;
+	padding: 10px 30px;
+	
+}
+.btn3{
+	background-color: #2D3D4C;
+	color: #FFFFFF;
+	padding: 10px 30px;
+}
+.btn1:hover{
+	background-color: #000000;
+	color: #FFFFFF;
+}
+.btn3:hover{
+	opacity: .7;
+}
+.btn4{
+	
+background-color: #FFFFFF;
+padding: 10px 30px;
+	color: #000000;
+}
+.btn4:hover{
+	background-color: #000000;
+	color: #FFFFFF;
+}
+.btn5 {
+	background-color: #2F8592;
+	color: #FFFFFF;
+	padding: 10px 30px;
+	
+}
+.btn5:hover{
+	background-color: #000000;
+	color: #FFFFFF;}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.spacesign{
+	margin-top: 35px;
+}
+.about{
+	align-items: center;
+   padding: 100px 0;
+	justify-content: center;
+	text-align: center;
+	background-color: #DADADA;
+}
+
+.ban2{
+	background-image: url("../images/pexels-vitaly-vlasov-1323730.png");
+	height: 500px;
+	background-size: cover;
+	color: #FFFFFF;
+	justify-content: left;
+	align-items: center;
+	text-align: left;
+	padding-top: 200px;
+	padding-left: 50px;
+}
+
+
+.row{
+	display: flex;
+	max-width: 1200px;
+	margin: auto;
+}
+.col{
+	flex: 1;
+	padding: 20px;
+	transition: 1s;
+}
+.shoping .col:hover{
+	transform: scale(1.2, 1.2);
+	transition: 1s;
+}
+.btn2:hover{
+	background-color: #E5D4C4;
+	color: #000000;
+}
+	.title{
+	text-align: center;
+	
+}
+
+.banner3
+{
+	background-color: #2D3D4C;
+	padding-bottom: 20px;
+	color: #FFFFFF;
+}
+.ourstory{
+	background-image: url("../images/rsz_new_york_starbucks_roastery_4-1536x650.png");
+	height: 700px;
+	background-size: cover;
+	color: #FFFFFF;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	text-align: center;
+	padding-left: 500px;
+}
+.ourstory h1{
+	color: #FFFFFF;
+	font-size: 100px;
+}
+.story{
+	align-items: center;
+   padding: 45;
+	justify-content: center;
+	text-align: center;
+}
+.sign{
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	text-align: center;
+	padding: 50px;
+	padding-bottom: 150px;
+	padding-left: 100px;
+}
+.sign h1{
+	color: #000000;
+}
+.container {
+  padding: 16px;
+}
+.banshop{
+	background-image: url("../images/packaging mockup.png");
+	height: 100px;
+	background-size: cover;
+	color: #FFFFFF;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	text-align: center;
+	padding-left: 700px;
+	padding-bottom: 800px;
+}
+
+.shop{
+	padding-bottom: 100px;
+}
+.pic1{
+	height: 646px;
+	width: 546px;
+}
+.shoping{
+	
+	justify-content: left;
+	align-items: center;
+	text-align: center;
+}
+
+.shoping h1{
+	color: #000000;
+}
+.shoping input{
+	width: 35px;
+	margin-bottom: 50px;
+}
+
+hr.one{
+ border: none;
+ height: 1px;
+ background: #000000;
+ margin-left: 200px;
+ margin-right: 200px;
+ margin-bottom: 50px;
+}
+.cart{
+	padding-left: 50px;
+}
+.cart h1{
+	color: #000000;
+}
+.arrange{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.check{
+	padding-left: 1000px;
+}
+
+footer{
+	background-color: #d8d8d8;
+	color: #000000;
+}	
+.footerbottam{
+	text-align: center;
+	padding: 10px;
+	border-top: 1px solid ;
+}
+
+/*media query for mobile*/	
+
+@media screen and (max-width:428px){
+header{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 5%;
+	position: static;
+	top: 0;
+	background-color: #FFFFFF;	
+}
+	nav{
+		text-align: center;
+	}
+	nav a{
+	display: block;
+	
+}
+	.row{
+	flex-direction: column;
+}
+}
+/*media query for tab*/
+@media screen and (min-width:429px) and (max-width:768px){
+	
+	.row{
+	flex-wrap: wrap;
+}
+.col{
+	flex: 50%;
+}
+	.hide-in-tab{
+		display: none;
+	}
+}
